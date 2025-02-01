@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .left-section {
+    max-width: 500px;
+  }
+  
+  .left-section img {
+    width: 300px;
+    margin-bottom: -20px;
+  }
+  
+  .left-section p {
+    font-size: 24px;
+    color: #1c1e21;
+    margin-left: 30px;
+  }
+  
+  .right-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #166fe5;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 12px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: 0.5px solid #dddfe2;
+    margin: 20px 0;
+  }
+  
+  .create-account {
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .create-account:hover {
+    background-color: #36a420;
+  }
+  
+  .create-page {
+    font-size: 14px;
+    color: #1c1e21;
+    margin-top: 20px;
+  }
+  
+  .create-page a {
+    color: #1c1e21;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .create-page a:hover {
+    text-decoration: underline;
+  }
